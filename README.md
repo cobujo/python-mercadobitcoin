@@ -34,8 +34,8 @@ mbtc = mercadobitcoin.Api()
 mbtc.ticker('BTC')
 mbtc.orderbook('BTC')
 mbtc.trades('BTC')
-*note that this has been updated per v3: functions with litecoin in the name have been removed.
 ```
+*note that this has been updated per v3: functions with litecoin in the name have been removed.
 
 And the private Trade API:
 
