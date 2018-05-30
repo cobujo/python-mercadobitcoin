@@ -31,13 +31,11 @@ Below you can see the available Mercado Bitcoin API methods you can use:
 ```python
 import mercadobitcoin
 mbtc = mercadobitcoin.Api()
-mbtc.ticker()
-mbtc.orderbook()
-mbtc.trades()
-mbtc.ticker_litecoin()
-mbtc.orderbook_litecoin()
-mbtc.trades_litecoin()
+mbtc.ticker('BTC')
+mbtc.orderbook('BTC')
+mbtc.trades('BTC')
 ```
+*note that this has been updated per v3: functions with litecoin in the name have been removed.
 
 And the private Trade API:
 
